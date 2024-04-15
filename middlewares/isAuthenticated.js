@@ -1,11 +1,14 @@
 const { expressjwt: jwt } = require("express-jwt");
 
+
+/* This code snippet defines a middleware function named `isAuthenticated` that is used for
+authenticating incoming requests in a Node.js application using JSON Web Tokens (JWT).*/
 const isAuthenticated = jwt({
   secret: process.env.TOKEN_SECRET,
   algorithms: ["HS256"],
   requestProperty: "payload",
   getToken: (req) => {
-    console.log(req.headers);
+    // console.log(req.headers);
 
     if (req.headers === undefined || req.headers.authorization === undefined) {
       console.log("Token no entregado");

@@ -1,0 +1,143 @@
+[
+  {
+    "id": 0,
+    "name": "Platano",
+    "categorie": "Alimentos",
+    "image": "platanos.png"
+  },
+  {
+    "id": 1,
+    "name": "Naranja",
+    "categorie": "Alimentos",
+    "image": "naranja.png"
+  },
+  {
+    "id": 2,
+    "name": "Limon",
+    "categorie": "Alimentos",
+    "image": "limon.png"
+  },
+  {
+    "id": 3,
+    "name": "Manzana",
+    "categorie": "Alimentos",
+    "image": "manzana.png"
+  },
+  {
+    "id": 4,
+    "name": "Uva",
+    "categorie": "Alimentos",
+    "image": "uva.png"
+  },
+  {
+    "id": 6,
+    "name": "Arandano",
+    "categorie": "Alimentos",
+    "image": "arandano.png"
+  },{
+    "id":7 ,
+    "name": "Arroz",
+    "categorie": "Alimentos",
+    "image": "arroz.png"
+  },{
+    "id":8 ,
+    "name": "Alubias",
+    "categorie": "Alimentos",
+    "image": "alubia.png"
+  },{
+    "id": 9,
+    "name": "Maiz",
+    "categorie": "Alimentos",
+    "image": "maiz.png"
+  },{
+    "id": 10,
+    "name": "Patata",
+    "categorie": "Alimentos",
+    "image": "patata.png"
+  },{
+    "id": 11,
+    "name": "Huevo",
+    "categorie": "Alimentos",
+    "image": "huevo.png"
+  },{
+    "id": 12,
+    "name": "Harina",
+    "categorie": "Alimentos",
+    "image": "harina.png"
+  },{
+    "id": 13,
+    "name": "Azucar",
+    "categorie": "Alimentos",
+    "image": "azucar.png"
+  },{
+    "id": 14,
+    "name": "Aceite",
+    "categorie": "Alimentos",
+    "image": "aceite.png"
+  },{
+    "id":15 ,
+    "name": "Papel Higienico",
+    "categorie": "Higiene",
+    "image": "papelhigienico.png"
+  },{
+    "id":16 ,
+    "name": "Jabon",
+    "categorie": "Higiene",
+    "image": "jabon.png"
+  },{
+    "id": 17,
+    "name": "Detergente",
+    "categorie": "Higiene",
+    "image": "detergente.png"
+  },{
+    "id":18 ,
+    "name": "Cloro gel multiusos",
+    "categorie": "Higiene",
+    "image": "clorogelmultiusos.png"
+  },{
+    "id": 19,
+    "name": "Jabon para platos",
+    "categorie": "Higiene",
+    "image": "jabonparaplatos.png"
+  },{
+    "id":20 ,
+    "name": "Estropajo",
+    "categorie": "Higiene",
+    "image": "estropajo.png"
+  },{
+    "id":21 ,
+    "name": "Pasta de dientes",
+    "categorie": "Higiene",
+    "image": "pastadedientes.png"
+  },{
+    "id":22 ,
+    "name": "Papel de aluminio",
+    "categorie": "Higiene",
+    "image": "papelaluminio.png"
+  },{
+    "id": 23,
+    "name": "Champu",
+    "categorie": "Higiene",
+    "image": "champu.png"
+  },{
+    "id":24 ,
+    "name": "Pañales",
+    "categorie": "Higiene",
+    "image": "pañales.png"
+  },{
+    "id": 25,
+    "name": "Panadol",
+    "categorie": "Medicina",
+    "image": "panadol.png"
+  },{
+    "id":26 ,
+    "name": "Paracetamol",
+    "categorie": "Medicina",
+    "image": "paracetamol.png"
+  },{
+    "id":26 ,
+    "name": "Ibuprofeno",
+    "categorie": "Medicina",
+    "image": "ibuprofeno.png"
+  }
+]

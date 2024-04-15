@@ -20,7 +20,7 @@ const userSchema = new Schema(
     },
     imagen:{
       type: String,
-      default: "public/profile-picture-default-png.png"
+      default: "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713186447/my-app/m4dtqo2r22dmmgpsppuh.png"
     },
     dateborn: {
       type: Date

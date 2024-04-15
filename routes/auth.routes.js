@@ -2,19 +2,46 @@ const router = require("express").Router();
 const User = require("../models/User.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const isAuthenticated = require("../middlewares/isAuthenticated")
+const isAuthenticated = require("../middlewares/isAuthenticated");
 
 //Ruta Post Registrar el usuario
 router.post("/signup", async (req, res, next) => {
-  const { name, email, password, confirmPassword, dateborn } = req.body;
-  console.log("quiero ver req.body", req.body);
+  const { name, email, password, confirmPassword, coordinates } = req.body;
+  // console.log("quiero ver req.body", req.body);
 
   //   //! Validaciones de usuario
-  //   //* Rellenar campos
-  if (!name || !email || !password || !confirmPassword || !dateborn) {
+  
+  // Validar campos vacíos
+  if (!name || !email || !password || !confirmPassword ) {
     res
       .status(400)
       .json({ errorMessage: "Todos los campos deben estar rellenos" });
+    return;
+  }
+
+  // Validar contraseña coincidente
+  if (password !== confirmPassword) {
+    res
+      .status(400)
+      .json({ errorMessage: "Las constraseñas no coinciden" });
+    return;
+  }
+
+  // Validar contraseña
+  const passwordRegex =
+    /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+  if (!passwordRegex.test(password)) {
+    res
+      .status(400)
+      .json({ errorMessage: "La contraseña debe tener 8 caracteres, mayuscula,simbolo ,y numero" });
+    return;
+  }
+  // Validar correo electrónico
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    res
+      .status(400)
+      .json({ errorMessage: "Formato de correo no correcto" });
     return;
   }
 
@@ -22,7 +49,7 @@ router.post("/signup", async (req, res, next) => {
     //Usuario no repetido
     const userfound = await User.findOne({ email: email });
     if (userfound) {
-      res.status(400).json({ errorMessage: "Este usuario ya esta registrado" });
+      res.status(400).json({ errorMessage: "Este correo ya esta registrado" });
       return;
     }
     //Encriptar constraseña
@@ -36,7 +63,7 @@ router.post("/signup", async (req, res, next) => {
       name: name,
       email: email,
       password: hashPassword,
-      dateborn: dateborn,
+      coordinates: coordinates
     });
     // console.log("usuario creado en DB", response);
     res.json("Usuario creado");
@@ -54,9 +81,9 @@ router.post("/login", async (req, res, next) => {
 
     //Usuario existente
     const foundUser = await User.findOne({ email });
-    console.log(foundUser);
+    // console.log(foundUser);
     if (foundUser === null) {
-      res.status(400).json({ errorMessage: "Usuario no registrado" });
+      res.status(400).json({ errorMessage: "Email no registrado" });
       return;
     }
     //Contraseña Correcta
@@ -84,16 +111,13 @@ router.post("/login", async (req, res, next) => {
       expiresIn: "1d",
     });
 
-    res.json("Login Correcto");
+    res.json(authToken);
   } catch (error) {
     next(error);
   }
 });
 //Ruta Get para indicar al Front que el usuario esta activo
 router.get("/verify", isAuthenticated, (req, res, next) => {
-
-
-
   res.json(req.payload);
 });
 
