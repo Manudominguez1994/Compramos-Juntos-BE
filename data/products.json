@@ -3,141 +3,141 @@
     "id": 0,
     "name": "Platano",
     "categorie": "Alimentos",
-    "image": "platanos.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203095/platanos_demob0.png"
   },
   {
     "id": 1,
     "name": "Naranja",
     "categorie": "Alimentos",
-    "image": "naranja.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203087/naranja_tc6gke.png"
   },
   {
     "id": 2,
     "name": "Limon",
     "categorie": "Alimentos",
-    "image": "limon.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203084/limon_eswuwx.png"
   },
   {
     "id": 3,
     "name": "Manzana",
     "categorie": "Alimentos",
-    "image": "manzana.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203086/manzana_nn6w9e.png"
   },
   {
     "id": 4,
     "name": "Uva",
     "categorie": "Alimentos",
-    "image": "uva.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203096/uva_crkqmj.png"
   },
   {
     "id": 6,
     "name": "Arandano",
     "categorie": "Alimentos",
-    "image": "arandano.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/arandano_e5tvwq.png"
   },{
     "id":7 ,
     "name": "Arroz",
     "categorie": "Alimentos",
-    "image": "arroz.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/arroz_m2ob4a.png"
   },{
     "id":8 ,
     "name": "Alubias",
     "categorie": "Alimentos",
-    "image": "alubia.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203065/alubia_btgvpt.png"
   },{
     "id": 9,
     "name": "Maiz",
     "categorie": "Alimentos",
-    "image": "maiz.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203086/maiz_urcn6t.png"
   },{
     "id": 10,
     "name": "Patata",
     "categorie": "Alimentos",
-    "image": "patata.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203094/patata_dl6tpx.png"
   },{
     "id": 11,
     "name": "Huevo",
     "categorie": "Alimentos",
-    "image": "huevo.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203075/huevo_zzdfpb.png"
   },{
     "id": 12,
     "name": "Harina",
     "categorie": "Alimentos",
-    "image": "harina.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203074/harina_s408nf.png"
   },{
     "id": 13,
     "name": "Azucar",
     "categorie": "Alimentos",
-    "image": "azucar.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/azucar_rqakmq.png"
   },{
     "id": 14,
     "name": "Aceite",
     "categorie": "Alimentos",
-    "image": "aceite.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203065/aceite_qd5c7c.png"
   },{
     "id":15 ,
     "name": "Papel Higienico",
     "categorie": "Higiene",
-    "image": "papelhigienico.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203091/papelhigienico_abu2sa.png"
   },{
     "id":16 ,
     "name": "Jabon",
     "categorie": "Higiene",
-    "image": "jabon.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203081/jabon_kujfqy.png"
   },{
     "id": 17,
     "name": "Detergente",
     "categorie": "Higiene",
-    "image": "detergente.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203071/detergente_xipqss.png"
   },{
     "id":18 ,
     "name": "Cloro gel multiusos",
     "categorie": "Higiene",
-    "image": "clorogelmultiusos.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203068/clorogelmultiusos_qjcs6d.png"
   },{
     "id": 19,
     "name": "Jabon para platos",
     "categorie": "Higiene",
-    "image": "jabonparaplatos.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203082/jabonparaplatos_i3m0qu.png"
   },{
     "id":20 ,
     "name": "Estropajo",
     "categorie": "Higiene",
-    "image": "estropajo.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203073/estropajo_mbk9e8.png"
   },{
     "id":21 ,
     "name": "Pasta de dientes",
     "categorie": "Higiene",
-    "image": "pastadedientes.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203093/pastadedientes_ghpres.png"
   },{
     "id":22 ,
     "name": "Papel de aluminio",
     "categorie": "Higiene",
-    "image": "papelaluminio.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203090/papelaluminio_hsmsn5.png"
   },{
     "id": 23,
     "name": "Champu",
     "categorie": "Higiene",
-    "image": "champu.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203067/champu_hdkkny.png"
   },{
     "id":24 ,
     "name": "Pañales",
     "categorie": "Higiene",
-    "image": "pañales.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203089/pa%C3%B1ales_has18j.png"
   },{
     "id": 25,
     "name": "Panadol",
     "categorie": "Medicina",
-    "image": "panadol.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203088/panadol_sbvqlx.png"
   },{
     "id":26 ,
     "name": "Paracetamol",
     "categorie": "Medicina",
-    "image": "paracetamol.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203092/paracetamol_ylwmgj.png"
   },{
-    "id":26 ,
+    "id":27 ,
     "name": "Ibuprofeno",
     "categorie": "Medicina",
-    "image": "ibuprofeno.png"
+    "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203076/ibuprofeno_gzfrfj.png"
   }
 ]
