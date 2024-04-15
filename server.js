@@ -4,5 +4,5 @@ const app = require("./app");
 
 
 app.listen(80, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
+  console.log(`Server listening on http://localhost:${80}`);
 });
