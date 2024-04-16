@@ -31,9 +31,10 @@ router.post("/create/:groupId", isAuthenticated, async (req, res, next) => {
   }
 });
 //GET Entrega todos los mensaje del chat
-router.get("/allChats", isAuthenticated, async (req, res, next) => {
+router.get("/allChats/:groupId", isAuthenticated, async (req, res, next) => {
+  const groupId = req.params.groupId;
   try {
-    const allChats = await Chat.find()
+    const allChats = await Chat.find({groupId:groupId})
       .populate("userOwner")
       .populate("groupId");
     res.json(allChats);
