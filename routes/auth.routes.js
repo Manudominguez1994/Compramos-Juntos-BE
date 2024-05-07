@@ -33,7 +33,7 @@ router.post("/signup", async (req, res, next) => {
   if (!passwordRegex.test(password)) {
     res
       .status(400)
-      .json({ errorMessage: "La contraseña debe tener 8 caracteres, mayuscula,simbolo ,y numero" });
+      .json({ errorMessage: "La contraseña debe tener por menos 8 caracteres, mayúscula, minúscula, símbolo y número" });
     return;
   }
   // Validar correo electrónico

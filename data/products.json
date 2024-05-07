@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "Platano",
+    "name": "Plátano",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203095/platanos_demob0.png"
   },
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "name": "Limon",
+    "name": "Limón",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203084/limon_eswuwx.png"
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": 6,
-    "name": "Arandano",
+    "name": "Arándano",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/arandano_e5tvwq.png"
   },{
@@ -41,12 +41,12 @@
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/arroz_m2ob4a.png"
   },{
     "id":8 ,
-    "name": "Alubias",
+    "name": "Frijoles",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203065/alubia_btgvpt.png"
   },{
     "id": 9,
-    "name": "Maiz",
+    "name": "Maíz",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203086/maiz_urcn6t.png"
   },{
@@ -66,7 +66,7 @@
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203074/harina_s408nf.png"
   },{
     "id": 13,
-    "name": "Azucar",
+    "name": "Azúcar",
     "categorie": "Alimentos",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203066/azucar_rqakmq.png"
   },{
@@ -76,12 +76,12 @@
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203065/aceite_qd5c7c.png"
   },{
     "id":15 ,
-    "name": "Papel Higienico",
+    "name": "Papel Higiénico",
     "categorie": "Higiene",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203091/papelhigienico_abu2sa.png"
   },{
     "id":16 ,
-    "name": "Jabon",
+    "name": "Jabón",
     "categorie": "Higiene",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203081/jabon_kujfqy.png"
   },{
@@ -96,7 +96,7 @@
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203068/clorogelmultiusos_qjcs6d.png"
   },{
     "id": 19,
-    "name": "Jabon para platos",
+    "name": "Jabón para platos",
     "categorie": "Higiene",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203082/jabonparaplatos_i3m0qu.png"
   },{
@@ -116,7 +116,7 @@
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203090/papelaluminio_hsmsn5.png"
   },{
     "id": 23,
-    "name": "Champu",
+    "name": "Champú",
     "categorie": "Higiene",
     "image": "https://res.cloudinary.com/dgfqxvzld/image/upload/v1713203067/champu_hdkkny.png"
   },{
