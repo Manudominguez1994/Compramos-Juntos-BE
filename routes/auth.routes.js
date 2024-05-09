@@ -23,7 +23,7 @@ router.post("/signup", async (req, res, next) => {
   if (password !== confirmPassword) {
     res
       .status(400)
-      .json({ errorMessage: "Las constraseñas no coinciden" });
+      .json({ errorMessage: "Las contraseñas no coinciden" });
     return;
   }
 
